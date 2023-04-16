@@ -40,7 +40,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.definirValores(pos.linha -1, pos.linha -1);
+                pos.definirValores(pos.linha -1, pos.coluna -1);
             }
 
             //Nordeste
@@ -52,7 +52,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.definirValores(pos.linha - 1, pos.linha + 1);
+                pos.definirValores(pos.linha - 1, pos.coluna + 1);
             }
 
             //Sudeste
@@ -64,7 +64,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.definirValores(pos.linha + 1, pos.linha + 1);
+                pos.definirValores(pos.linha + 1, pos.coluna + 1);
             }
 
             //Sudoeste
@@ -76,7 +76,7 @@ namespace xadrez
                 {
                     break;
                 }
-                pos.definirValores(pos.linha + 1, pos.linha - 1);
+                pos.definirValores(pos.linha + 1, pos.coluna - 1);
             }
 
             return mat;
